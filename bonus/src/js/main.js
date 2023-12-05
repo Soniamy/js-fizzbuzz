@@ -6,11 +6,11 @@ for (let i = 1; i <= 100; i++) {
     if (i % 15 == 0) msg = 'fizzbuzz';
     else if (i % 3 == 0) msg = 'fizz';
     else if (i % 5 == 0) msg = 'buzz';
-    else msg = '';
+    else msg = i;
     console.log(i);
     //creazione della variabile li
     let li = document.createElement('li');
-    li.append(i + msg);
+    li.append(msg);
     li.setAttribute('class', msg);
     $ul.append(li);
 }
