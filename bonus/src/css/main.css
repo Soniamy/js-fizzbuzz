@@ -1,0 +1,16 @@
+:root {
+    --wrapper-width: 1400px;
+}
+h1 {
+    font-size: 4em;
+    color: white;
+}
+.fizz {
+    color: red;
+}
+.buzz {
+    color: blue;
+}
+.fizzbuzz {
+    color: purple;
+}
