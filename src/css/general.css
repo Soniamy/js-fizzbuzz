@@ -4,9 +4,6 @@ html {
 }
 
 .content-wrapper {
-    width: 100%;
-    box-sizing: content-box;
-    max-width: var(--wrapper-width);
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 1em;
 }

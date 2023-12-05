@@ -11,5 +11,6 @@ for (let i = 1; i < 100; i++) {
     //creazione della variabile li
     let li = document.createElement('li');
     li.append(i + ' = ' + msg);
+    li.setAttribute('class', msg);
     $ul.append(li);
 }
